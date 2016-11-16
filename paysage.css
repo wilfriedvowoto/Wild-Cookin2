@@ -142,6 +142,27 @@ footer img {
 	float: left;
 }
 
+@media only screen and (max-width: 1280px) {
+	div {
+		bottom: 30vh;
+	}
+
+	p {
+		font-size: 30px;
+	}
+	footer {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	footer img {
+		display: inline-block;
+		width: 55px;
+		height: 55px;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
+}
 
 @media only screen and (max-width: 1080px) {
 	div {
@@ -158,8 +179,8 @@ footer img {
 
 	footer img {
 		display: inline-block;
-		width: 30px;
-		height: 30px;
+		width: 40px;
+		height: 40px;
 		margin-top: 1%;
 		margin-bottom: 1%;
 	}
