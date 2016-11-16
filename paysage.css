@@ -142,6 +142,10 @@ footer img {
 	float: left;
 }
 
+/*--
+---mediaqueries
+--*/
+
 @media only screen and (max-width: 1280px) {
 	div {
 		bottom: 30vh;
