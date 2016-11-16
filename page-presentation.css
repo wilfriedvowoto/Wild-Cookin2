@@ -5,20 +5,31 @@
 }
 /*----------------------HEADER-----------------------------*/
 header {
+	position: relative;
 	background-color: black;
-	height: 120px;
+	height: 140px;
+	width: 100%;
+}
+nav {
+	position: absolute;
+	margin-left: 38%;
+	size: 14px;
+	top: 0;
+	right: 0;
 	width: 100%;
 }
 
 header nav ul {
 	list-style: none;
+	margin-left: 20%;
 }
 
 nav ul li{
-	margin-top:1%;
+	margin-top: 1%;
 	float: left;
 	text-align: center;
-	margin-left: 11%;
+	margin-left: 10%;
+	margin-top: 2%;
 }
 
 nav ul li:hover img {
@@ -35,9 +46,10 @@ nav ul li a {
 	color: #fff;
 }
 
-.logo {
-	float: left;
-	margin-left: 7%;
+#logo {
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 0.7%;
 }
 
 /*----------------------CARROUSSEL-------------------------*/
@@ -155,7 +167,7 @@ article {
 
 .container1 img {
 	float: left;
-	width: 1150px;
+	width: 75%;
 	height:600px;
 	margin-bottom: 1%;
 }
