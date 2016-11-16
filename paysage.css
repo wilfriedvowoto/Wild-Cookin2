@@ -13,17 +13,59 @@ body {
 --*/
 
 header {
-    background: #22211F;
+	background-color: black;
+	height: 120px;
+	width: 100%;
+}
+
+header nav ul {
+	list-style: none;
+}
+
+nav ul li{
+	margin-top:1%;
+	float: left;
+	text-align: center;
+	margin-left: 11%;
+}
+
+nav ul li:hover img {
+	opacity: 0.7;
+}
+
+nav ul li:hover a {
+	opacity: 0.7;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+
+#logo {
+	float: left;
+}
+
+/*header {
+    background: #000;
     height: 120px;
     width: 100%;
     position: relative;
-    display: block;
-    margin: 0 auto;
 }
 
-nav {
-    margin: 50px 0 0 515px;
-    position: absolute;
+#logo {
+	top: 5%;
+	margin-left: 5%;
+}
+
+nav {	
+	position: absolute;
+	padding: 0;
+    float: left;
+    width: 95%;
+    top: 10%;
+    display: inline-block;
 }
 
 nav ul {
@@ -32,67 +74,25 @@ nav ul {
 
 nav li {
     float: left;
-    margin-top: 40px;
-    margin-right: 160px;
+    text-align: center;
     font-size: 14px;
     font-weight: lighter;
-
+    padding: 0 5%;
 }
 
-nav a {
+
+
+nav ul li a {
+	display: inline;
     text-decoration: none;
     color: white;
     padding: 0 0;
-    border-bottom: 1px solid white;
 }
 
-.logo {
-    position: absolute;
-    margin-left: 70px;
-    margin-top: 9px;
+nav ul li a:hover {
+	opacity: 0.5;
 }
-.wild {
-    position: absolute;
-    margin-left: 187px;
-    margin-top: 56px;
-}
-.accueil {
-    position: absolute;
-    margin-left: 500px;
-    margin-top: 12px;
-
-}
-.recettes {
-    position: absolute;
-    margin-left: 734px;
-    margin-top: 12px;
-}
-.idée {
-    position: absolute;
-    margin-left: 972px;
-    margin-top: 12px;
-
-}
-.paysage {
-    position: absolute;
-    margin-left: 1211px;
-    margin-top: 12px;}
-
-.recette {
-    position: absolute;
-    color: white;
-    margin-left: 22px;
-}
-.Location {
-    position: absolute;
-    color: white;
-    margin-left: 103px;
-}
-.TrucsAstuces {
-    position: absolute;
-    color: white;
-    margin-left: 165px;
-}
+*/
 
 /*--
 ---section
@@ -112,7 +112,7 @@ article {
 	position: relative;
 }
 
-img {
+img.paysage {
 	opacity:1;
 	width: 100%;
 }
@@ -145,7 +145,7 @@ article:hover p {
 	visibility: visible;
 }
  
-img:hover {
+article:hover img{
 	filter:brightness(50%);
 		-webkit-filter:brightness(50%);
 			-moz-filter:brightness(50%);
