@@ -1,15 +1,12 @@
 * {
 	margin : 0;
 	padding: 0;
-	list-style: none;
-	text-decoration: none;
+
 }
 /*----------------------HEADER-----------------------------*/
 header {
 	background-color: black;
-	padding :0;
-	margin: 0;
-	height: 255px;
+	height: 120px;
 	width: 100%;
 }
 
@@ -18,10 +15,18 @@ header nav ul {
 }
 
 nav ul li{
+	margin-top:1%;
 	float: left;
 	text-align: center;
-	margin-left: 10%;
-	margin-top: 5%;
+	margin-left: 11%;
+}
+
+nav ul li:hover img {
+	opacity: 0.7;
+}
+
+nav ul li:hover a {
+	opacity: 0.7;
 }
 
 nav ul li a {
@@ -30,44 +35,10 @@ nav ul li a {
 	color: #fff;
 }
 
-.logo img {
+.logo {
 	float: left;
+	margin-left: 7%;
 }
-
-/*.idée {
-   position: absolute;
-   margin-left: 972px;
-   margin-top: 12px;
-}
-.paysage {
-   position: absolute;
-   margin-left: 1211px;
-   margin-top: 12px;
-}
-#accueil {
-   position: absolute;
-   margin-left: 10px;
-   margin-top: 5px;
-   color: white;
-}
-#recettes {
-   position: absolute;
-   margin-left: 10px;
-   margin-top: 5px;
-   color: white;
-}
-#idée {
-   position: absolute;
-   margin-left: 954px;
-   margin-top: 88px;
-   color: white;
-}
-#paysage {
-   position: absolute;
-   margin-left: 10px;
-   margin-top: 5px;
-   color: white;
-}*/
 
 /*----------------------CARROUSSEL-------------------------*/
 .slider{
@@ -75,7 +46,6 @@ nav ul li a {
 	width: 100%;
 	padding :0;
 	margin: 0;
-	height: 540px;
 
 }
 
