@@ -6,6 +6,7 @@
 }
 
 body {
+	font-family: "Avenir LT Std 45 Book Regular", sans-serif;
 }
 
 /*--
@@ -89,8 +90,8 @@ div {
 	bottom: 35vh;  /* a modifier pour la version fianle car bouge*/
 	left: 0;
 	right: 0;
-	padding: 0 20px;
-	width: 1000px;
+	padding: 0 10%;
+	width: auto;
 	display: block;
 	margin: 0 auto;
 }
@@ -103,10 +104,6 @@ p {
 	padding: 0;
 	margin: 0;
 }
-
-/*article {
-	margin: 1% 0;
-}*/
 
 article {
 	margin-top: 0; 
@@ -125,17 +122,13 @@ article:hover img{
 			-ms-filter:brightness(50%);
 }
 
-/*article:fisrt-child {
-	margin: 0 0 1% 0;
-}*/
-
 /*--
 ---footer
 --*/
 
 footer {
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 10%;
+	margin-right: 10%;
 	border-top: solid 2px grey;
 }
 
@@ -147,4 +140,63 @@ footer img {
 	width: 73px;
 	height: 73px;
 	float: left;
+}
+
+
+@media only screen and (max-width: 1080px) {
+	div {
+		bottom: 30vh;
+	}
+
+	p {
+		font-size: 30px;
+	}
+	footer {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	footer img {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	div {
+		bottom: 20vh;
+	}
+
+	p {
+		font-size: 20px;
+	}
+	footer {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	footer img {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	div {
+		bottom: 15vh;
+	}
+
+	p {
+		font-size: 11px;
+	}
+
+	footer {
+		display: none;
+	}
 }
