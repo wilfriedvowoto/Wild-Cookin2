@@ -127,8 +127,8 @@ article:hover img{
 --*/
 
 footer {
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 	border-top: solid 2px grey;
 }
 
@@ -154,10 +154,6 @@ footer img {
 	p {
 		font-size: 30px;
 	}
-	footer {
-		margin-left: 5%;
-		margin-right: 5%;
-	}
 
 	footer img {
 		display: inline-block;
@@ -176,10 +172,6 @@ footer img {
 	p {
 		font-size: 30px;
 	}
-	footer {
-		margin-left: 5%;
-		margin-right: 5%;
-	}
 
 	footer img {
 		display: inline-block;
@@ -197,10 +189,6 @@ footer img {
 
 	p {
 		font-size: 20px;
-	}
-	footer {
-		margin-left: 5%;
-		margin-right: 5%;
 	}
 
 	footer img {
