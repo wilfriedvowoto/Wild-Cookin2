@@ -1,0 +1,167 @@
+@meta "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+}
+
+/*--
+---nav
+--*/
+
+header {
+    background: #22211F;
+    height: 120px;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 50px 0 0 515px;
+    position: absolute;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    margin-top: 40px;
+    margin-right: 160px;
+    font-size: 14px;
+    font-weight: lighter;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 0;
+    border-bottom: 1px solid white;
+}
+
+.logo {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 9px;
+}
+.wild {
+    position: absolute;
+    margin-left: 187px;
+    margin-top: 56px;
+}
+.accueil {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 12px;
+
+}
+.recettes {
+    position: absolute;
+    margin-left: 734px;
+    margin-top: 12px;
+}
+.idée {
+    position: absolute;
+    margin-left: 972px;
+    margin-top: 12px;
+
+}
+.paysage {
+    position: absolute;
+    margin-left: 1211px;
+    margin-top: 12px;}
+
+.recette {
+    position: absolute;
+    color: white;
+    margin-left: 22px;
+}
+.Location {
+    position: absolute;
+    color: white;
+    margin-left: 103px;
+}
+.TrucsAstuces {
+    position: absolute;
+    color: white;
+    margin-left: 165px;
+}
+
+/*--
+---section
+--*/
+
+section {
+	display: block;
+	margin: 0 auto;
+}
+
+li {
+	list-style: none;
+	box-sizing: border-box;
+}
+
+article {
+	position: relative;
+}
+
+img {
+	opacity:1;
+	width: 100%;
+}
+
+div {
+	position: absolute;
+	bottom: 45vh;  /* a modifier pour la version fianle car bouge*/
+	left: 0;
+	right: 0;
+	padding: 0 20px;
+	width: 1000px;
+	display: block;
+	margin: 0 auto;
+}
+
+p {
+	font-size: 48px;
+	visibility: hidden;
+	color: #fff;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+article:hover {
+	/*opacity: 0.8;*/
+}
+
+article:hover p {
+	visibility: visible;
+}
+ 
+img:hover {
+	filter:brightness(50%);
+		-webkit-filter:brightness(50%);
+			-moz-filter:brightness(50%);
+			-o-filter:brightness(50%);
+			-ms-filter:brightness(50%);
+}
+
+
+
+/*.footer div {
+    width: 200px;
+    float: left;
+    /* engendre une colonne (à gauche) si associé à width */
+    padding: 20px 20px 20px 20px;
+    margin: 0 20px 0 0;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}*/
