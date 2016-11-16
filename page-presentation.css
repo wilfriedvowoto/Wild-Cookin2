@@ -234,11 +234,93 @@ footer img {
 
 /*----------------------RESPONSIVE------------------*/
 @media only screen and (max-width: 1080px) {
+	header {
+		height: 100px;
+	}
 
-#logo {
-	width: ;
-}
-	footer {
+	#logo {
+		width: 75px;
+		height: 82px;
+		margin-left: 5%;
+	}
 
+	header nav ul {
+		margin-left: 10%;
+	}
+	header nav ul li {
+		margin-left: 10%;
+	}
+	header nav ul li img {
+		width: 40px;
+		height: 40px;
+	}
+	footer img{
+		width: 40px;
+		height: 40px;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
+
+	.slide {
+		height: auto;
 	}
 }
+
+@media only screen and (max-width: 885px) {
+	
+	header nav ul {
+		margin-left: 13%;
+	}
+	header nav ul li {
+		margin-left: 7%;
+	}
+
+	article {
+		height: 250px;
+	}
+
+	section article .art2 {
+		width: 50%;
+		margin-top:5%;
+		padding: 1%;
+	} 
+
+	.container1 p, .container2 p {
+		font-size: 12px;
+	}
+
+	h1 {
+		font: bold 15px "Papyrus";
+	}
+
+	.art3 {
+		font-size: 12px;
+	}
+
+	.container3 article img {
+		height: 50%;
+	}
+}
+
+@media only screen and (max-width: 710px) {
+
+	header nav ul {
+		margin-left: 25%;
+	}
+	header nav ul li {
+		margin-left: 10%;
+	}
+
+	article {
+		height: 250px;
+	}
+
+	header nav ul li img {
+		margin-left: 15px;
+	}
+	header nav ul li a {
+		display: none;
+	}
+}
+
+
